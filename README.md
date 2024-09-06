@@ -26,3 +26,18 @@ Este projeto tem como objetivo fornecer ferramentas úteis para pessoas com defi
 
 ## Estrutura do Projeto
 
+. ├── index.html ├── texto.html ├── emocao.html ├── financas.html ├── idiomas.html ├── style.css ├── script.js ├── emocao.js ├── financas.js └── idiomas.js
+
+
+## Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/KelvenPer/Pagina-de-Acessibilidade/tree/main
+
+
+
+### Personalize conforme necessário
+
+- Eu sou `KelvenPer` o repositorio para esse projeto é esse >> `https://github.com/KelvenPer/Pagina-de-Acessibilidade/tree/main`  
