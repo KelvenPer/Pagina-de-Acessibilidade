@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Aplicativo de Aprendizado de Idiomas</title>
+</head>
+<body>
+  <header>
+    <h1>Aplicativo de Aprendizado de Idiomas</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <label for="textoAprendizado">Digite o texto para tradução:</label>
+    <textarea id="textoAprendizado" rows="10" aria-label="Área de texto para tradução"></textarea>
+    <label for="idiomaAprendizado">Traduzir para:</label>
+    <select id="idiomaAprendizado">
+      <option value="pt">Português</option>
+      <option value="en">Inglês</option>
+      <option value="es">Espanhol</option>
+      <option value="fr">Francês</option>
+    </select>
+    <button onclick="traduzirTexto()">Traduzir</button>
+    <p id="resultadoTraducao" aria-live="polite"></p>
+    <script src="java.js"></script>
+  </main>
+</body>
+</html>

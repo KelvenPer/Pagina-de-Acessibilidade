@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Ferramenta de Acessibilidade</title>
+</head>
+<body>
+  <h1>Ferramenta de Acessibilidade</h1>
+  <div class="container">
+    <label for="texto">Digite o texto:</label>
+    <textarea id="texto" rows="10" aria-label="Área de texto para inserir o conteúdo"></textarea>
+
+    <div class="acoes">
+      <button onclick="contarPalavras()" aria-label="Contar palavras no texto">Contar Palavras</button>
+      <button onclick="lerTexto()" aria-label="Ler o texto em voz alta">Ler Texto</button>
+      <p id="resultado" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <script src="java.js"></script>
+</body>
+</html>

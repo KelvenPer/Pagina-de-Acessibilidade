@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Diário de Emoções</title>
+</head>
+<body>
+  <header>
+    <h1>Diário de Emoções</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <label for="emocao">Registre seu estado emocional:</label>
+    <textarea id="emocao" rows="10" aria-label="Área para registrar o estado emocional"></textarea>
+    <button onclick="salvarEmocao()">Salvar Emoção</button>
+    <p id="resultadoEmocao" aria-live="polite"></p>
+    <script src="java.js"></script>
+  </main>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Gerenciador de Finanças Pessoais</title>
+</head>
+<body>
+  <header>
+    <h1>Gerenciador de Finanças Pessoais</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Controle suas finanças:</h2>
+    <label for="descricao">Descrição:</label>
+    <input type="text" id="descricao">
+    <label for="valor">Valor:</label>
+    <input type="number" id="valor">
+    <button onclick="adicionarTransacao()">Adicionar Transação</button>
+    <ul id="lista-transacoes"></ul>
+    <script src="java.js"></script>
+  </main>
+</body>
+</html>
