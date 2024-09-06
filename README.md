@@ -45,8 +45,17 @@ Este projeto tem como objetivo fornecer ferramentas úteis para pessoas com defi
    ```bash
    git clone https://github.com/KelvenPer/Pagina-de-Acessibilidade/tree/main
 
+# Personalize conforme necessário
 
 
-### Personalize conforme necessário
+### Conciderações finais 
 
-- Eu sou `KelvenPer` o repositorio para esse projeto é esse >> `https://github.com/KelvenPer/Pagina-de-Acessibilidade/tree/main`  
+Eu sou `KelvenPer` o repositorio para esse projeto é esse >> `https://github.com/KelvenPer/Pagina-de-Acessibilidade/tree/main`  
+
+Fique a vontade para me dar feedback sobre o meu projeto 
+
+Esse projeto foi feito junto com Imerssão Dev Alura com Gemini 
+
+Agradecido 
+
+Até Mais
