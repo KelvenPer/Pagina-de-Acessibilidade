@@ -26,7 +26,16 @@ Este projeto tem como objetivo fornecer ferramentas úteis para pessoas com defi
 
 ## Estrutura do Projeto
 
-. ├── index.html ├── texto.html ├── emocao.html ├── financas.html ├── idiomas.html ├── style.css ├── script.js ├── emocao.js ├── financas.js └── idiomas.js
+├── index.html 
+   ├── texto.html 
+      ├── emocao.html 
+         ├── financas.html 
+         ├── idiomas.html 
+         ├── style.css 
+         ├── script.js 
+         ├── emocao.js 
+         ├── financas.js 
+         └── idiomas.js
 
 
 ## Instalação
